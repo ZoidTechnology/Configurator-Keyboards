@@ -1,0 +1,53 @@
+{
+  "name": "Matrix",
+  "vendorId": "0x2E8A",
+  "productId": "0x1069",
+  "matrix": {
+    "rows": 2,
+    "cols": 2
+  },
+  "layouts": {
+    "keymap": [
+      ["0,0", "0,1"],
+      ["1,0", "1,1"]
+    ]
+  },
+  "menus": [
+    {
+      "label": "Lighting",
+      "content": [
+        {
+          "label": "Backlight",
+          "content": [
+            {
+              "label": "Brightness",
+              "type": "range",
+              "options": [0, 255],
+              "content": ["brightness", 0, 1]
+            },
+            {
+              "label": "Button 1 color",
+              "type": "color",
+              "content": ["color[0]", 0, 2, 0]
+            },
+            {
+              "label": "Button 2 color",
+              "type": "color",
+              "content": ["color[1]", 0, 2, 1]
+            },
+            {
+              "label": "Button 3 color",
+              "type": "color",
+              "content": ["color[2]", 0, 2, 2]
+            },
+            {
+              "label": "Button 4 color",
+              "type": "color",
+              "content": ["color[3]", 0, 2, 3]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

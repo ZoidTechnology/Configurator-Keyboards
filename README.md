@@ -1,2 +1,3 @@
-# VIA Keyboards
-![Definitions](https://github.com/the-via/keyboards/actions/workflows/build.yml/badge.svg)
+# Configurator Keyboards
+
+Keyboard definitions for use with [Seven Crumbs Configurator](https://github.com/ZoidTechnology/Configurator-App).

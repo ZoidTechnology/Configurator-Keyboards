@@ -1,7 +1,10 @@
 #!/usr/bin/env node
-'use strict';
-var tsNode = require('ts-node');
+
+const path = require('path');
+const tsNode = require('ts-node');
+
 tsNode.register({
-  project: './node_modules/via-keyboards/tsconfig.json',
+  project: path.join(__dirname, '../tsconfig.json'),
 });
+
 require('../scripts/build-all');

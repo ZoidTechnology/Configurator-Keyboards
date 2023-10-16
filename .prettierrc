@@ -1,12 +1,5 @@
 {
-  "overrides": [
-    {
-      "files": [".prettierrc", ".babelrc", ".eslintrc", ".stylelintrc"],
-      "options": {
-        "parser": "json"
-      }
-    }
-  ],
+  "singleQuote": true,
   "bracketSpacing": false,
-  "singleQuote": true
+  "endOfLine": "auto"
 }

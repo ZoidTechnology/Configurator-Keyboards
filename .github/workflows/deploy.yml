@@ -1,0 +1,11 @@
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send POST request to deploy hook URL
+        run: curl --request POST ${{ secrets.DEPLOY_HOOK_URL }}

@@ -1,3 +1,3 @@
 # Configurator Keyboards
 
-Keyboard definitions for use with [Seven Crumbs Configurator](https://github.com/ZoidTechnology/Configurator-App).
+Keyboard definitions for use with [Code7 Configurator](https://github.com/ZoidTechnology/Configurator-App).

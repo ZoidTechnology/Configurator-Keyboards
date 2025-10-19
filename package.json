@@ -10,7 +10,7 @@
   },
   "license": "GPL-3.0",
   "dependencies": {
-    "@the-via/reader": "^1.8.0",
+    "@the-via/reader": "^1.9.0",
     "@types/fs-extra": "^11.0.1",
     "@types/glob": "^8.0.1",
     "@types/rimraf": "^3.0.2",
